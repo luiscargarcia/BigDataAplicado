@@ -85,12 +85,12 @@ val sparkVersion = "3.2.0"
 val hadoopVersion = "3.4.0"
 
 libraryDependencies ++= Seq(
-  "org.apache.spark" %% "spark-core" % sparkVersion exclude("org.slf4j","*"),
-  "org.apache.spark" %% "spark-sql" % sparkVersion exclude("org.slf4j","*"),
-  "org.apache.hadoop" % "hadoop-client" % hadoopVersion exclude("org.slf4j","*"),
+  "org.apache.spark" %% "spark-core" % sparkVersion,
+  "org.apache.spark" %% "spark-sql" % sparkVersion,
+  "org.apache.hadoop" % "hadoop-client" % hadoopVersion,
   "org.apache.logging.log4j" % "log4j-api" % "2.20.0",
   "org.apache.logging.log4j" % "log4j-core" % "2.20.0",
-  "org.apache.logging.log4j" % "log4j-slf4j2-impl" % "2.20.0"
+  "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.20.0"
 )
 
 fork := true
@@ -111,10 +111,6 @@ javaOptions ++= Seq(
   "--add-opens=java.base/sun.security.action=ALL-UNNAMED",
   "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED",
   "-Dio.netty.tryReflectionSetAccessible=true"
-)
-
-javaOptions ++= Seq(
-  "-Dlog4j.configurationFile=log4j2.xml",
 )
 
 run / javaOptions ++= Seq(
