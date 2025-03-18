@@ -1478,7 +1478,7 @@ object CompleteExample2 {
 ## 11. Ejercicios prácticos
 
 ### Ejercicio 1
-
+- Resolver en scala
 - Objetivo: Analizar tendencias de ventas por categoría de producto utilizando funciones de ventana en Spark SQL.
 - Planteamiento: Una empresa de comercio electrónico quiere analizar sus datos de ventas para entender mejor las tendencias por categoría de producto. Necesitan calcular las ventas acumuladas y el promedio móvil de ventas para cada categoría de producto a lo largo del tiempo.
 
@@ -1494,7 +1494,7 @@ object CompleteExample2 {
   - Para el promedio móvil, considera usar windowSpec.rowsBetween().
 
 ### Ejercicio 2
-
+- Resolver en scala
 - Objetivo: Procesar y analizar logs de servidor utilizando User-Defined Functions (UDFs) y operaciones de texto en Spark.
 Planteamiento: Un equipo de operaciones de TI necesita analizar los logs de sus servidores para identificar patrones y problemas. Los logs contienen información como timestamp, nivel de log (INFO, ERROR, WARN), y mensaje.
 - Crea un DataFrame simulando logs de servidor.
@@ -1508,7 +1508,7 @@ Planteamiento: Un equipo de operaciones de TI necesita analizar los logs de sus 
   - groupBy() y count() te ayudarán a calcular las frecuencias de los niveles de log.
 
 ### Ejercicio 3
-
+- Resolver en scala
 - Objetivo: Implementar un sistema de procesamiento de datos de sensores en tiempo real utilizando Spark Structured Streaming.
 - Planteamiento: Una fábrica inteligente ha instalado sensores de temperatura en diferentes áreas de la planta. Necesitan un sistema que pueda procesar estos datos en tiempo real y proporcionar estadísticas actualizadas constantemente.
 - Configura un StreamingQuery que simule la entrada de datos de sensores.
@@ -1523,7 +1523,7 @@ Planteamiento: Un equipo de operaciones de TI necesita analizar los logs de sus 
   - Configura el outputMode y el trigger en writeStream para controlar cómo y cuándo se actualizan los resultados.
 
 ### Ejercicio 4
-
+- Resolver en scala
 - Objetivo: Realizar operaciones de ETL (Extract, Transform, Load) en datos almacenados en formato Parquet y optimizar consultas.
 - Planteamiento: Un equipo de análisis de datos necesita preparar un gran conjunto de datos de ventas para su análisis. Los datos están almacenados en formato Parquet y necesitan ser procesados, transformados y optimizados para consultas eficientes.
 - Lee un conjunto de datos de ventas desde archivos Parquet.
@@ -1541,7 +1541,7 @@ Planteamiento: Un equipo de operaciones de TI necesita analizar los logs de sus 
 - Dataset: "<https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet>"
 
 ### Ejercicio 5
-
+- Resolver en scala
 - Objetivo: Analizar la evolución de casos de COVID-19 por país utilizando un conjunto de datos real descargado de internet.
 - Planteamiento: Una organización de salud global necesita analizar la propagación del COVID-19 en diferentes países para informar sus políticas y recomendaciones. Utilizarán el conjunto de datos de casos confirmados de COVID-19 proporcionado por el Centro de Ciencia e Ingeniería de Sistemas de la Universidad Johns Hopkins. El dataset contiene información diaria sobre los casos confirmados de COVID-19 para diferentes países y regiones.
 - Se requiere:
