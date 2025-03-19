@@ -1524,6 +1524,7 @@ Planteamiento: Un equipo de operaciones de TI necesita analizar los logs de sus 
 
 ### Ejercicio 4
 - Resolver en scala
+- Descargar el dataset de "<https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet>"
 - Objetivo: Realizar operaciones de ETL (Extract, Transform, Load) en datos almacenados en formato Parquet y optimizar consultas.
 - Planteamiento: Un equipo de análisis de datos necesita preparar un gran conjunto de datos de ventas para su análisis. Los datos están almacenados en formato Parquet y necesitan ser procesados, transformados y optimizados para consultas eficientes.
 - Lee un conjunto de datos de ventas desde archivos Parquet.
