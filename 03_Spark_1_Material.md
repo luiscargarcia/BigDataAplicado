@@ -1547,6 +1547,7 @@ Planteamiento: Un equipo de operaciones de TI necesita analizar los logs de sus 
 - Planteamiento: Una organización de salud global necesita analizar la propagación del COVID-19 en diferentes países para informar sus políticas y recomendaciones. Utilizarán el conjunto de datos de casos confirmados de COVID-19 proporcionado por el Centro de Ciencia e Ingeniería de Sistemas de la Universidad Johns Hopkins. El dataset contiene información diaria sobre los casos confirmados de COVID-19 para diferentes países y regiones.
 - Se requiere:
   - Descargar y procesar el conjunto de datos más reciente.
+  - Almacenar los datos descargados en HDFS automaticamente. 
   - Transformar los datos de formato ancho a largo para facilitar el análisis temporal.
   - Calcular los nuevos casos diarios por país.
   - Identificar los 10 países con más casos acumulados.
